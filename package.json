@@ -1,5 +1,5 @@
 {
-  "name": "@technologiestiftung/giessdenkiez-de-postgres-api",
+  "name": "@code-for-magdeburg/magdeburggiesst-postgres-api",
   "version": "2.0.0",
   "private": true,
   "license": "MIT",
@@ -55,19 +55,14 @@
   },
   "description": "vercel functions for the giessdenkiez.de project to interact with the supabase database",
   "main": "api/index.ts",
-  "keywords": [
-    "giessdenkiez.de"
-  ],
+  "keywords": [],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/technologiestiftung/giessdenkiez-de-postgres-api.git"
+    "url": "git+https://github.com/code-for-magdeburg/magdeburggiesst-postgres-api.git"
   },
   "bugs": {
-    "url": "https://github.com/technologiestiftung/giessdenkiez-de-postgres-api/issues"
+    "url": "https://github.com/code-for-magdeburg/magdeburggiesst-postgres-api/issues"
   },
-  "homepage": "https://github.com/technologiestiftung/giessdenkiez-de-postgres-api#readme",
-  "author": "Fabian Morón Zirfas <hash@ff6347.email> (https://fabianmoronzirfas.me)",
-  "contributors": [
-    "@fdnklg"
-  ]
+  "homepage": "https://github.com/code-for-magdeburg/magdeburggiesst-postgres-api#readme",
+  "author": "Code for Magdeburg"
 }
