@@ -1530,7 +1530,7 @@ exports[`GET routes snapshot tests default responses Should return 200 on treesb
   ],
   "error": null,
   "links": {},
-  "name": "@technologiestiftung/giessdenkiez-de-postgres-api",
+  "name": "@code-for-magdeburg/magdeburggiesst-postgres-api",
   "range": {
     "end": 1,
     "start": 0,
@@ -1545,7 +1545,7 @@ exports[`GET routes snapshot tests default responses should return 200 on adopte
   "data": [],
   "error": null,
   "links": {},
-  "name": "@technologiestiftung/giessdenkiez-de-postgres-api",
+  "name": "@code-for-magdeburg/magdeburggiesst-postgres-api",
   "range": {
     "end": -1,
     "start": -1,
@@ -1559,7 +1559,7 @@ exports[`GET routes snapshot tests default responses should return 200 on istree
 {
   "data": false,
   "error": null,
-  "name": "@technologiestiftung/giessdenkiez-de-postgres-api",
+  "name": "@code-for-magdeburg/magdeburggiesst-postgres-api",
   "url": "/?type=istreeadopted&id=_210028b9c8&uuid=auth0%7Cabc",
 }
 `;
@@ -1569,7 +1569,7 @@ exports[`GET routes snapshot tests default responses should return 200 on lastwa
   "data": [],
   "error": null,
   "links": {},
-  "name": "@technologiestiftung/giessdenkiez-de-postgres-api",
+  "name": "@code-for-magdeburg/magdeburggiesst-postgres-api",
   "range": {
     "end": -1,
     "start": -1,
@@ -2346,7 +2346,7 @@ exports[`GET routes snapshot tests default responses should return 200 on tree b
     },
   ],
   "error": null,
-  "name": "@technologiestiftung/giessdenkiez-de-postgres-api",
+  "name": "@code-for-magdeburg/magdeburggiesst-postgres-api",
   "url": "/?type=byid&id=_2100294b1f",
 }
 `;
@@ -2356,7 +2356,7 @@ exports[`GET routes snapshot tests default responses should return 200 on watere
   "data": [],
   "error": null,
   "links": {},
-  "name": "@technologiestiftung/giessdenkiez-de-postgres-api",
+  "name": "@code-for-magdeburg/magdeburggiesst-postgres-api",
   "range": {
     "end": -1,
     "start": -1,
@@ -2371,7 +2371,7 @@ exports[`GET routes snapshot tests default responses should return 200 on watere
   "data": [],
   "error": null,
   "links": {},
-  "name": "@technologiestiftung/giessdenkiez-de-postgres-api",
+  "name": "@code-for-magdeburg/magdeburggiesst-postgres-api",
   "range": {
     "end": -1,
     "start": -1,
@@ -3917,7 +3917,7 @@ exports[`GET v3 routes snapshot tests default responses Should return 200 on tre
   ],
   "error": null,
   "links": {},
-  "name": "@technologiestiftung/giessdenkiez-de-postgres-api",
+  "name": "@code-for-magdeburg/magdeburggiesst-postgres-api",
   "range": {
     "end": 1,
     "start": 0,
@@ -3932,7 +3932,7 @@ exports[`GET v3 routes snapshot tests default responses should return 200 on ado
   "data": [],
   "error": null,
   "links": {},
-  "name": "@technologiestiftung/giessdenkiez-de-postgres-api",
+  "name": "@code-for-magdeburg/magdeburggiesst-postgres-api",
   "range": {
     "end": -1,
     "start": -1,
@@ -3946,7 +3946,7 @@ exports[`GET v3 routes snapshot tests default responses should return 200 on ist
 {
   "data": false,
   "error": null,
-  "name": "@technologiestiftung/giessdenkiez-de-postgres-api",
+  "name": "@code-for-magdeburg/magdeburggiesst-postgres-api",
   "url": "/?type=istreeadopted&id=_210028b9c8&uuid=auth0%7Cabc",
 }
 `;
@@ -3956,7 +3956,7 @@ exports[`GET v3 routes snapshot tests default responses should return 200 on las
   "data": [],
   "error": null,
   "links": {},
-  "name": "@technologiestiftung/giessdenkiez-de-postgres-api",
+  "name": "@code-for-magdeburg/magdeburggiesst-postgres-api",
   "range": {
     "end": -1,
     "start": -1,
@@ -4733,7 +4733,7 @@ exports[`GET v3 routes snapshot tests default responses should return 200 on tre
     },
   ],
   "error": null,
-  "name": "@technologiestiftung/giessdenkiez-de-postgres-api",
+  "name": "@code-for-magdeburg/magdeburggiesst-postgres-api",
   "url": "/?type=byid&id=_2100294b1f",
 }
 `;
@@ -4743,7 +4743,7 @@ exports[`GET v3 routes snapshot tests default responses should return 200 on wat
   "data": [],
   "error": null,
   "links": {},
-  "name": "@technologiestiftung/giessdenkiez-de-postgres-api",
+  "name": "@code-for-magdeburg/magdeburggiesst-postgres-api",
   "range": {
     "end": -1,
     "start": -1,
@@ -4758,7 +4758,7 @@ exports[`GET v3 routes snapshot tests default responses should return 200 on wat
   "data": [],
   "error": null,
   "links": {},
-  "name": "@technologiestiftung/giessdenkiez-de-postgres-api",
+  "name": "@code-for-magdeburg/magdeburggiesst-postgres-api",
   "range": {
     "end": -1,
     "start": -1,

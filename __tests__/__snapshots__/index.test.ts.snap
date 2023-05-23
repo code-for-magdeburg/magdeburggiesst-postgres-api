@@ -3,7 +3,7 @@
 exports[`GET/POST/DELETE routes index should list all routes on /delete 1`] = `
 {
   "message": "its working",
-  "name": "@technologiestiftung/giessdenkiez-de-postgres-api",
+  "name": "@code-for-magdeburg/magdeburggiesst-postgres-api",
   "routes": [
     {
       "method": "GET",
@@ -287,7 +287,7 @@ exports[`GET/POST/DELETE routes index should list all routes on /delete 1`] = `
 exports[`GET/POST/DELETE routes index should list all routes on /get 1`] = `
 {
   "message": "its working",
-  "name": "@technologiestiftung/giessdenkiez-de-postgres-api",
+  "name": "@code-for-magdeburg/magdeburggiesst-postgres-api",
   "routes": [
     {
       "method": "GET",
@@ -571,7 +571,7 @@ exports[`GET/POST/DELETE routes index should list all routes on /get 1`] = `
 exports[`GET/POST/DELETE routes index should list all routes on /post 1`] = `
 {
   "message": "its working",
-  "name": "@technologiestiftung/giessdenkiez-de-postgres-api",
+  "name": "@code-for-magdeburg/magdeburggiesst-postgres-api",
   "routes": [
     {
       "method": "GET",
