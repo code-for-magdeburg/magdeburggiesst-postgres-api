@@ -1,23 +1,7 @@
 import { test, describe, expect, afterAll, jest } from "@jest/globals";
 
 import * as pkg from "../_utils/package";
-jest.mock("../_utils/envs", () => {
-	return {
-		getEnvs: () => {
-			return {
-				jwksUri: "",
-				audience: "",
-				issuer: "",
-				audienceFrontend: "",
-				auth0ClientIdManagementApi: "xyz",
-				auth0ClientSecretManagementApi: "xyz",
-				auth0ManagementApiAudience: "xyz",
-				auth0TokenApiUrlManagementApi: "http://api.xyz",
-				auth0ManagementApiUrl: "http://api.abc",
-			};
-		},
-	};
-});
+
 jest.mock("../_utils/package", () => {
 	return {
 		getPackage: jest.fn().mockImplementation(() => {
@@ -30,6 +14,7 @@ jest.mock("../_utils/package", () => {
 		}),
 	};
 });
+
 describe("setup-response", () => {
 	// eslint-disable-next-line jest/no-hooks
 	afterAll(() => {
