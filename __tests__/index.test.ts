@@ -1,10 +1,8 @@
 import each from "jest-each";
 import fetch from "cross-fetch";
 import { test, describe, expect } from "@jest/globals";
-import handler from "../api/index";
-import getHandler from "../api/get/index";
-import postHandler from "../api/post/index";
-import deleteHandler from "../api/delete/index";
+import handler from "../api/v3/index";
+import getHandler from "../api/v3/get/index";
 import { createTestServer } from "../__test-utils/create-test-server";
 import { Methods } from "../_utils/routes-listing";
 
@@ -14,32 +12,6 @@ describe("GET/POST/DELETE routes index", () => {
 		const { server, url } = await createTestServer({}, getHandler);
 		const response = await fetch(url, {
 			method: "GET",
-			headers: {
-				"Content-Type": "application/json",
-			},
-		});
-		server.close();
-		const json = await response.json();
-		expect(response.status).toBe(200);
-		expect(json).toMatchSnapshot();
-	});
-	test("should list all routes on /post", async () => {
-		const { server, url } = await createTestServer({}, postHandler);
-		const response = await fetch(url, {
-			method: "POST",
-			headers: {
-				"Content-Type": "application/json",
-			},
-		});
-		server.close();
-		const json = await response.json();
-		expect(response.status).toBe(200);
-		expect(json).toMatchSnapshot();
-	});
-	test("should list all routes on /delete", async () => {
-		const { server, url } = await createTestServer({}, deleteHandler);
-		const response = await fetch(url, {
-			method: "DELETE",
 			headers: {
 				"Content-Type": "application/json",
 			},

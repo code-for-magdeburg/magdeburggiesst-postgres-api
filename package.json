@@ -16,9 +16,7 @@
   "dependencies": {
     "@supabase/supabase-js": "2.1.0",
     "@vercel/node": "2.6.4",
-    "ajv": "8.11.2",
-    "jsonwebtoken": "8.5.1",
-    "jwks-rsa": "3.0.0"
+    "ajv": "8.11.2"
   },
   "devDependencies": {
     "@faker-js/faker": "7.6.0",
@@ -43,7 +41,6 @@
     "jest-each": "29.3.1",
     "jest-in-case": "1.0.2",
     "just-install": "1.0.11",
-    "mock-jwks": "1.0.9",
     "next": "13.1.2",
     "postgres": "3.3.2",
     "rome": "10.0.1",
